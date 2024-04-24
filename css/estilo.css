@@ -143,7 +143,6 @@ body{
     display: flex;
     justify-content: center;
     margin: auto;
-    padding-right: 2rem;
 }
 
 
@@ -157,12 +156,12 @@ body{
     font-weight: 600;
     background-color: #0097EE;
     color: whitesmoke;
-    box-shadow: 0px 3px 3px #57ffdd9d;
+    box-shadow: 0px 3px 3px whitesmoke;
     cursor: pointer;
 }
 
 .btn-sobre:hover{
-    box-shadow: 3px 3px 5px 5px #57ffdd9d;
+    box-shadow: 3px 3px 5px 5px whitesmoke;
 }
 
 ::-webkit-scrollbar{
@@ -201,11 +200,13 @@ footer{
     text-decoration: none;
     color: white;
     background-color:solid #0288D1;
-    border: 1px solid #57ffdd9d;
-    border-left: 10px solid #57ffdd9d;
+    border: 1px solid whitesmoke;
+    border-left: 10px solid whitesmoke;
     transition: all 0.25s ease-in-out;
 }
-
+.link-cv i{
+    margin-left: 8px;
+}
 .link-cv:hover{
     background-color: white;
     color:#0288D1;
@@ -341,6 +342,7 @@ h2{
     cursor: pointer;
     color: rgba(192, 188, 188, 0.781);
     list-style: none;
+    margin-left: 2rem;
 }
 .social ul li{
     display: flex;
@@ -360,10 +362,11 @@ h2{
 }
 .autor{
     display: grid;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     height: 2px;
     color: rgba(192, 188, 188, 0.781);
+    margin-bottom: 2rem;
 }
 .autor:hover{
     color: white;
